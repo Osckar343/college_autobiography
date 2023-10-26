@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  
+  .contenedor {
+    width: 98%;
+    margin: auto;
+  }
+  
+  section {
+    width: 100%;
+    padding: 0;
+  }
+  
+  #finalMusic{
+    display: none;
+  }
+  
+  
+  /*Version para escritorio*/
+  @media (min-width:1024px){
+    .contenedor {
+      width: 1000px; /*A partir de que llegue a 1024px, el width máximo será de 1000px*/
+    }
+  }
+  
+  /*Version para escritorio*/
+  @media (min-width:768px){
+    .sociales {
+      width: auto;
+    }
+  
+  }
+  

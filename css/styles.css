@@ -1,0 +1,7 @@
+@import url(style_reset.css);
+@import url(animate.css); 
+@import url(fonts.css);
+
+@import url(general.css);
+@import url(cover.css);
+@import url(timeline.css);
