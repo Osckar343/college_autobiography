@@ -1,4 +1,17 @@
-.content {
+#contenido_extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+#contenido_extra p {
+    font-size: 20px;
+}
+
+#contenido_extra img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin: 50px;
+}
